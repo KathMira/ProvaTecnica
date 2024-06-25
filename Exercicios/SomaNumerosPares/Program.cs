@@ -1,5 +1,6 @@
-﻿var argumentos = args;
+﻿string[] argumentos = args;
 
+//Console.WriteLine("Digite os números que deseja fazer a soma, separados por espaço: ");
 var numerosDivididos = argumentos.FirstOrDefault()?.Split(',');
 if (numerosDivididos == null)
 {
